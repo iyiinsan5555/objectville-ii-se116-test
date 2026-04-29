@@ -5,4 +5,12 @@ public abstract class Cell {
     public Cell(int x, int y){
         location = new Point(x,y);
     }
+
+    public Point getLocation() {
+        return location;
+    }
+
+    public void setLocation(Point location) {
+        this.location = location;
+    }
 }

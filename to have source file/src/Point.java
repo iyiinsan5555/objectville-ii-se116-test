@@ -32,7 +32,7 @@ public class Point {
         int totalDist = (int) Math.sqrt(distanceY*distanceY + distanceX*distanceX);
         return totalDist;
     }
-
+    //in case we need it...
     @Override
     public String toString() {
         return "Point{" +
